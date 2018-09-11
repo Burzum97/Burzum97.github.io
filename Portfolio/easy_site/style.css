@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 body {
-	
+
 	background-color: #fff;
 }
 
@@ -23,6 +23,94 @@ button {
 input, textarea, button {
 	outline: none;
 }
+.container{
+	width:100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.clear{
+	clear:both;
+}
+
 /* end reset */
 
-/*  пишем код тут */
+/*  start header */
+header{
+	padding-top: 15px;
+	height: 100px;
+	    z-index: 1;
+}
+.logo{
+	text-align: center;
+}
+/* and header */
+/* start banner */
+.banner{
+	    position: relative;
+			    z-index: -1;
+	height: 650px;
+	    background: linear-gradient(0deg, #ffa8a8, #fcff00);
+			padding-top: 180px;
+}
+.banner_text{
+	text-align: center;
+	margin: 0 auto;
+}
+h1{
+	font-size: 40px;
+}
+.banner_text span{
+	color: #fff;
+	font-family: RedRingBlack, sans-serif;
+	font-style: normal;
+}
+.banner_img{
+	position: absolute;
+	width: 324px;
+	height: 100%;
+	bottom: 0;
+	left: 50%;
+	background: url("images/phones.png") no-repeat center 100%;
+	transform: translateX(-50%);
+}
+.definition{
+	padding: 100px 0;
+}
+.definition_item{
+	display: inline-block;
+	float: left;
+	width: 33.33%;
+	padding: 0 30px;
+	text-align: center;
+}
+.definition_item h3{
+	font-family: "ProximaNovaLight",sans-serif;
+	font-size: 24px;
+	font-weight: 300px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+.definition_item p{
+width: 75%;
+margin: 0 auto;
+font-family: "ProximaNovaLight",sans-serif;
+font-weight: 400;
+text-align: justify;
+}
+.icon1,.icon2,.icon3{
+
+	background-size: auto;
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	margin: 25px 0;
+}
+.icon1{
+		background: url("images/lamp.png") no-repeat center center;
+}
+.icon2{
+		background: url("images/infinity.png") no-repeat center center;
+}
+.icon3{
+		background: url("images/trendy.png") no-repeat center center;
+}
