@@ -36,9 +36,11 @@ input, textarea, button {
 
 /*  start header */
 header{
+	 position: relative;
+	  z-index: 1;
 	padding-top: 15px;
 	height: 100px;
-	    z-index: 1;
+
 }
 .logo{
 	text-align: center;
@@ -47,7 +49,7 @@ header{
 /* start banner */
 .banner{
 	    position: relative;
-			    z-index: -1;
+			    z-index: 0;
 	height: 650px;
 	    background: linear-gradient(0deg, #ffa8a8, #fcff00);
 			padding-top: 180px;
@@ -113,4 +115,61 @@ text-align: justify;
 }
 .icon3{
 		background: url("images/trendy.png") no-repeat center center;
+}
+.form{
+	background-color: #f8f6f6;
+	padding: 100px 0;
+	text-align: center;
+}
+.form form {
+	display: inline-block;
+	width: 60%;
+
+}
+input, textarea{
+	width: 100%;
+	font-size: 18px;
+	border: 2px solid#ffa8a8;
+	border-radius: 15px;
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+.form h2{
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+textarea{
+	resize: none;
+	height: 200px;
+}
+.btn{
+display: inline-block;
+text-transform: uppercase;
+height: 45px;
+font-size: 18px;
+border-radius: 10px;
+padding: 10px 10%;
+border: none;
+text-align: center;
+background-image: linear-gradient(to right, #ffaaaa 0%,#ffff00 51%,#ffaaaa 100%);
+background-size: 200% auto;
+transition: 0.5s;
+}
+.btn:hover{
+	background-position: right center;
+}
+.tick samp{
+	font-size: 50px;
+	color: rgba(0, 0, 0, 0.5);
+}
+footer{
+	height: 90px;
+	text-align: center;
+	background-color: #ffa8a8;
+	text-transform: uppercase;
+}
+footer span{
+	display: inline-block;
+	margin: 30px;
 }
