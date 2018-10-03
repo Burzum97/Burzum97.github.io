@@ -1,0 +1,261 @@
+/* пишем стили */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+
+	background-color: #fff;
+}
+
+ h1, h2,  .copy{
+	font-weight: 100px;
+font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	text-align: center;
+}
+p, h3, h4{
+	font-family: 'Lato', sans-serif;
+}
+button {
+	font-family: "ProximaNovaLight", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+input, textarea, button {
+	outline: none;
+}
+.container{
+	width:100%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.clear{
+	clear:both;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+
+hr{
+
+
+  width:100%;
+	text-align: center;
+
+}
+/* end reset */
+
+/*  start header */
+.menu{
+  color: white;
+  padding: 15px 0;
+  text-align: left;
+}
+.menu_ul{
+  list-style: none;
+    padding-right: 20px;
+}
+.menu_ul li{
+  display: inline;
+  padding: 0 20px;
+}
+.menu_ul a:hover{
+  color:blue;
+}
+/*  end header */
+/*  start banner */
+.banner{
+	background: linear-gradient(to top,rgb(53, 74, 92),rgb(52, 74, 97));
+  padding-top: 100px;
+	color: white;
+}
+h1{
+	font-weight:300;
+font-size: 50px;
+}
+.banner_img img{
+	width: 100%;
+}
+.banner h2{
+	margin: 10px 0 30px 0;
+}
+main span{
+		font-family: "ProximaNovaBold", sans-serif;
+font-weight: 600;
+}
+.strelka1, .banner_img, .strelka2{
+	display: inline-block;
+	float: left;
+}
+.strelka1, .strelka2{
+	width: 25%;
+	padding: 0 30px;
+}
+.banner_img{
+	width: 50%;
+}
+	/*  end banner */
+/*  start definition */
+.definition{
+	padding: 50px 0;
+}
+.definition_item{
+	display: inline-block;
+	float: left;
+	width: 33.33%;
+	padding: 50px 50px;
+	text-align: center;
+}
+.definition_item h3{
+	font-family: "ProximaNovaLight",sans-serif;
+	font-size: 24px;
+	font-weight: 300px;
+	font-style: normal;
+	text-transform: uppercase;
+	margin-top: 30px;
+
+}
+.definition_item p{
+width: 75%;
+margin: 0 auto;
+font-family: "ProximaNovaLight",sans-serif;
+font-weight: 400;
+text-align: center;
+}
+/*  end definition */
+/*  start cform */
+.cform{
+
+height: 600px;
+
+}
+.cform a:hover{
+  color:blue;
+}
+.phone{
+	display: inline-block;
+	float: left;
+	width: 50%;
+	padding: 30px 50px;
+	text-align: center;
+}
+.phone img{
+	width: 60%;
+}
+
+.text h3 {
+	padding: 50px 50px 30px 50px;
+}
+.text a{
+display: block;
+	color: #32CD32		;
+	margin-top: 20px;
+}
+/*  end cform */
+/*  start shot */
+.shot{
+	background: linear-gradient(to top,rgb(53, 74, 92),rgb(52, 74, 97));
+  padding-top: 100px;
+	color: white;
+	height: 500px;
+	text-align: center;
+
+}
+.shot banner_text{
+	text-align: center;
+}
+.shot img{
+		width: 50%;
+		padding: 20px;
+}
+/*  end shot */
+/*  start adress */
+
+.contact{
+
+height: 600px;
+background-color: #303030;
+color:white;
+padding-top: 30px;
+
+}
+.btn{
+height: 30px;
+width: 75px;
+font-size: 15px;
+border-radius: 5px;
+margin:  20px 0;
+text-align: center;
+background-image: linear-gradient(to right, #98FB98 0%,#32CD32	 51%,#00FA9A 100%);
+background-size: 200% auto;
+transition: 0.5s;
+}
+.btn:hover{
+	background-position: right center;
+}
+.adress {
+	display: inline-block;
+	width: 20%;
+	padding: 30px;
+
+}
+.adress h3{
+padding: 30px;
+	color:white;
+	margin-left: 5px;
+}
+	.form h2{
+
+	margin-bottom: 50px;
+	color:white;
+}
+.form h4{
+
+	padding-top: 10px;
+	color:white;
+	text-align: left;
+}
+.form{
+
+	float: right;
+	width: 60%;
+	padding: 30px 50px;
+
+}
+
+input, textarea{
+	width: 100%;
+	font-size: 10px;
+	border: 2px solid#717171;
+	border-radius: 5px;
+
+	padding: 10px;
+}
+
+/*  end adress */
+/*  start footer */
+footer{
+	height: 60px;
+	text-align: right;
+	background-color: grey;
+	text-transform: uppercase;
+		background: #222222;
+}
+footer span{
+	display: inline-block;
+	margin: 20px 100px;
+	color:white;
+
+}
+
+footer a{
+	color:green;
+}
+footer a:hover{
+	color:blue;
+}
+/*  end footer */

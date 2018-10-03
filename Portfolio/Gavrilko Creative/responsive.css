@@ -1,0 +1,19 @@
+@media (min-width:300px) and (max-width:767px){
+  .form form {
+    width: 90%;
+  }
+
+.definition_item{
+	width: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:1200px){
+  .form form {
+    width: 80%;
+  }
+
+.definition_item{
+	width: 100%;
+  }
+}
