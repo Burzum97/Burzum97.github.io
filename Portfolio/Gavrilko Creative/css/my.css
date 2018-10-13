@@ -1,13 +1,21 @@
+.navbar-dark .navbar-nav .nav-link:hover {
+	color:#ee5f3f;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+		color:#ee5f3f;
+}
 
-
+.navbar-dark .navbar-brand:hover {
+    color:#ee5f3f;
+}
 .wrap h2{
     text-transform: uppercase;
     font-weight: 600;
 
 }
+
 .banner {
     background: url(../img/header.jpg) no-repeat center center/cover;
-    text-align: center;
     color: white;
 
   }
