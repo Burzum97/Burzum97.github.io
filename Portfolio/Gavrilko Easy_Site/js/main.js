@@ -1,3 +1,5 @@
+ new WOW().init();
+
 var h=document.getElementById('hour');
 var m=document.getElementById('min');
 var s=document.getElementById('sec');
